@@ -1,0 +1,4 @@
+---
+:enabled: true
+# Should the module say hello?
+#:say_hello: true
