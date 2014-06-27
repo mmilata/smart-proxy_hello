@@ -1,3 +1,6 @@
+require 'proxy/log'
+require 'proxy/plugin'
+
 require 'smart_proxy_hello/hello_version'
 
 module Proxy::Hello
