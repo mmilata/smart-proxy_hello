@@ -1,4 +1,4 @@
-require 'hello_version'
+require 'smart_proxy_hello/hello_version'
 
 module Proxy::Hello
   class Plugin < ::Proxy::Plugin
