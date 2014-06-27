@@ -1,6 +1,8 @@
+require 'hello_version'
+
 module Proxy::Hello
   class Plugin < ::Proxy::Plugin
-    plugin :hello, '0.1'
+    plugin :hello, Proxy::Hello::VERSION
 
     http_rackup_path File.expand_path("http_config.ru", File.expand_path("../", __FILE__))
     https_rackup_path File.expand_path("http_config.ru", File.expand_path("../", __FILE__))
