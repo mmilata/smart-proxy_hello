@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.description = 'Extremely simple smart-proxy plugin for educational purposes.'
   s.authors = ['Martin Milata']
   s.email = 'mmilata@redhat.com'
-  s.files = Dir['{lib,settings.d}/**/*'] + ['README', 'LICENSE']
+  s.files = Dir['{lib,settings.d,bundler.d}/**/*'] + ['README', 'LICENSE']
   s.homepage = 'http://github.com/mmilata/smart-proxy_hello'
   s.license = 'GPLv3'
 end
